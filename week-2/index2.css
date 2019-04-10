@@ -1,0 +1,14 @@
+#gray-paragraph{
+  color: blue;
+}
+
+p {
+  color: yellow;
+  background-color: purple;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.red-paragraph {
+  color: orange;
+}
+

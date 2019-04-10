@@ -1,0 +1,19 @@
+.centered {
+  background: pink;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  background: green;
+}
+
+img {
+  width: 500px;
+  float: left;
+}
+
+.third-p {
+  clear: left;
+}

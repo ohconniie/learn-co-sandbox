@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head> <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <!-- GET is for reading without writing for retrieval, not very secure -->
+    <!-- POST is to --> 
+    
+    <form action="http://www.google.com" method="post">
+      <!-- label describes the input-->
+      <!-- for is for screenreaders -->
+      <!-- and it links to the the id in an input -->
+      <label for="first-name">First Name:</label>
+      <input id="first-name" type="text">
+      
+      <label for="last-name">Last Name:</label>
+      <input id="last-name" type="text" placeholder="Last Name Hint Text">
+      
+      <label for="phone-number">Phone Number:</label>
+      <input id="phone-number" type="tel">
+      
+      <input type="file">
+      
+      <label for="color">Color:</label>
+      <input id="color" type="color">
+      
+      <label for="email">Email:</label>
+      <input type="email">
+      
+      <input type="submit" value="Submit This Form"> 
+      
+      <input type="password" required>
+       </form>
+      <br>
+      <br>
+      <!--HTML Media -->
+      <audio controls autoplay loop muted>
+        <source src="./trex.mp3">
+        <p>Sorry your browser doesn't support HTML5</p>
+      </audio>
+      <br>
+      <video controls loop muted poster="./poster.jpg">
+        <source src="./bunny.mp4">
+        <figcaption>This is caption for screenreader</figcaption>
+      </video>
+      
+      <header></header>
+      <nav></nav>
+      <main></main>
+      <section></section>
+      <article></article>
+      <aside></aside>
+      <footer></footer>
+     <style>
+      /* full CSS format */
+      /* 1. selector -> p */
+      /* 2. rule name -> color */
+      /* 3. value -> red */
+      
+      p {
+        color: red;
+        font-size: 40px;
+        background-color: green;
+      }
+      
+     </style> 
+     
+         <link href="./index.css" rel
+    ="stylesheet">
+    
+      <!-- Inline format -->
+      <!-- color is the rule and red is the value -->
+      <p style="color:blue"> Hi, I'm a paragraph</p>
+      <p>I should be red</p>
+      <p class="red-paragraph">RED</p>
+      
+      <p id="gray-paragraph">gray</p>
+  </body>
+</html>

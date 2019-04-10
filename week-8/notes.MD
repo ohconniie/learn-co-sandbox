@@ -1,0 +1,1 @@
+frontend -> kicks off data request -> backend -> talks to the database -> gets the information from it -> returns it back to the frontend
